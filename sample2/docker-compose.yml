@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    image: golang:1.16.4
+    tty: true
+    volumes:
+      - .:/go/src/app
+    working_dir: /go/src/app
